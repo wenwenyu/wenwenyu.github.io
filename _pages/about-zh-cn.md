@@ -1,12 +1,10 @@
 ---
-permalink: /
+permalink: /zh-cn/
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
+
 
 {% if site.google_scholar_stats_use_cdn %}
 {% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
@@ -17,7 +15,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-{% include_relative includes/intro.md %}
+{% include_relative zh-cn/intro.md %}
  
 
 

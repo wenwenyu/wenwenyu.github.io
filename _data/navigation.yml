@@ -3,8 +3,8 @@ main:
   - title: "About Me"
     url: "/#about-me"
 
-  - title: "News"
-    url: "/#-news"
+  # - title: "News"
+  #   url: "/#-news"
 
   - title: "Publications"
     url: "/#-publications"
@@ -20,3 +20,9 @@ main:
 
   - title: "Internships"
     url: "/#-internships"
+
+  - title: "Academic Service"
+    url: "/#-academic-service"
+
+  - title: "<img class=\"svg\" src=\"/images/cn.svg\" width=\"20pt\"> 中文"
+    url: "/zh-cn/"

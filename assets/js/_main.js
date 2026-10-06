@@ -3,7 +3,8 @@
    ========================================================================== */
 
 $(document).ready(function(){
-   // Sticky footer
+   // Sticky footer - commented out since we removed absolute positioning
+  /*
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
     },
@@ -20,6 +21,8 @@ $(document).ready(function(){
       bumpIt();
     }
   }, 250);
+  */
+  
   // FitVids init
   $("#main").fitVids();
 

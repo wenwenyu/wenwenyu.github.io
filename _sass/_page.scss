@@ -410,3 +410,50 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+.page__clustrmaps {
+  margin-top: 2em;
+  padding: 1em 0;
+  border-top: 1px solid $border-color;
+  
+  #clustrmaps-container {
+    text-align: center;
+    min-height: 300px;
+    max-width: 800px;
+    margin: 0 auto;
+    
+    iframe {
+      border: none;
+      border-radius: 4px;
+      max-width: 100%;
+      height: 300px;
+    }
+  }
+}
+
+/* ==========================================================================
+  Clustermap Footer Styles (新版)
+  ========================================================================== */
+.clustrmaps-footer {
+  /* 让整个页脚区域居中 */
+  text-align: center;
+  margin: 2em 0; /* 增加上下边距，让它看起来更舒服 */
+}
+
+#clustrmaps-container {
+  /* 让地图容器本身居中，并设置一个最大宽度，防止在大屏幕上过宽 */
+  margin: 0 auto;
+  width: 100%; /* 宽度占满父容器 */
+  max-width: 300px; /* 您可以根据喜好调整这个最大宽度值 */
+
+  /* 移除之前固定的 height 和 overflow */
+}
+
+/* 确保地图的 iframe 能够响应式地填充容器 */
+#clustrmaps-container iframe {
+  border: 1px solid #ddd; /* 给地图加一个浅色边框，可选 */
+  border-radius: 4px;   /* 保持圆角，可选 */
+  width: 100% !important; /* 宽度强制占满容器 */
+  height: auto; /* 高度自动调整 */
+  min-height: 200px; /* 设置一个最小高度，防止塌陷 */
+}
